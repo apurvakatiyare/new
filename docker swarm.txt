@@ -1,0 +1,50 @@
+Docker swarm
+ 1  nano docker.sh
+    2  chmod u+x docker.sh
+    3  ./docker.sh
+    4  docker images
+    5  nano Dockerfile
+    6  docker login
+    7  docker swarm init
+    8  docker build -t khushipatil12/apurva .
+    9  docker images
+   10  docker ps -a
+   11  docker service ls
+   12  docker push khushipatil12/apurva
+   13  nano index.html
+   14  docker images
+   15  docker ps -a
+   16  docker service create --name apu --replicas 3 -d -p 80:80 khushipatil12/apurva
+   17  docker service ls
+   18  docker node ls
+   19  history
+   20  docker node ls
+   21  ls
+   22  nano Dockerfile
+   23  docker push khushipatil12/apurva
+   24  docker service create --name apu --replicas 3 -d -p 80:80 khushipatil12/apurvals
+   25   ls
+   26  nano index.html
+   27  nano Dockerfile
+   28  nano Dockerfile
+   29  ls
+   30  nano docker.sh
+   31  docker build -t khushipatil12/apurva .
+   32  docker push khushipatil12/apurva
+   33  docker service create --name apu --replicas 3 -d -p 80:80 khushipatil12/apurvals
+   34  docker sevice stop
+   35  docker service stop
+   36  docker service ls
+   37  docker service stop tvzpd3x2qw14
+   38  docker service rm tvzpd3x2qw14
+   39  docker service create --name apu --replicas 3 -d -p 80:80 khushipatil12/apurvals
+   40  docker service create --name apu --replicas 3 -d -p 80:80 khushipatil12/apurva
+   41  docker service ls
+   42  docker service stop mwcb5h38xci9 mwcb5h38xci9
+   43  docker service stop mwcb5h38xci9
+   44  docker stop mwcb5h38xci9
+   45  docker service ls
+   46  docker service rm apu
+   47  docker service ls
+   48  docker service create --name apu --replicas 3 -d -p 80:80 khushipatil12/apurva
+   49  history
